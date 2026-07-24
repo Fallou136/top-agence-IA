@@ -4,7 +4,7 @@ sujet: lancement-digital-2026
 agent: presenter
 date: 2026-07-24
 version: 1
-statut: a-valider
+statut: approuve
 ---
 
 # Téranga Beach — Lancement Digital 2026
