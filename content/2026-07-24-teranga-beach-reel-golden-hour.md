@@ -5,7 +5,7 @@ agent: creator
 format: reel-tiktok
 date: 2026-07-24
 version: 1
-statut: a-valider
+statut: approuve
 ---
 
 # Script Reel / TikTok — « Golden Hour à Téranga Beach »

@@ -5,7 +5,7 @@ agent: creator
 format: facebook-instagram
 date: 2026-07-24
 version: 1
-statut: a-valider
+statut: approuve
 ---
 
 # Post Facebook / Instagram — « Le poisson frais du jour, fait maison »
