@@ -4,7 +4,7 @@ campagne: lancement-digital-2026
 agent: strategist
 date: 2026-07-24
 version: 1
-statut: a-valider
+statut: approuve
 ---
 
 # Brief de campagne — Téranga Beach · « Lancement Digital 2026 »
