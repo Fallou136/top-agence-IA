@@ -4,7 +4,7 @@ campagne: lancement-digital-2026
 agent: designer
 date: 2026-07-24
 version: 1
-statut: a-valider
+statut: approuve
 ---
 
 # Pack de prompts images — Téranga Beach · « Lancement Digital 2026 »
