@@ -116,7 +116,9 @@ Ordre de priorité (les premières photos conditionnent le clic depuis Maps) :
   plutôt que de laisser des messages sans réponse — mauvais signal).
 - **Posts Google** : reprendre le rythme de contenu (voir section 5) — 1 post/semaine minimum,
   car les posts GBP nourrissent la fiche et le pack local.
-- **Champ « à partir de » / lien menu** : à alimenter **après validation du menu/prix** par le client.
+- **Champ « à partir de » / lien menu** : ✅ menu/prix fournis par le client (`clients/teranga-beach/menu.md`,
+  fourchette 1 800 → 9 000 FCFA). Renseigner le niveau de prix « $ » et publier la carte (lien menu GBP +
+  page menu du mini-site). Mettre en avant les plats signatures : crevettes & calamars sautés (8 500), sole grillée frites maison (7 500).
 
 ### 1.7 Cohérence — nom d'établissement (✅ tranché le 2026-07-24)
 Deux dénominations coexistaient (« Téranga Beach » / « Téranga Belge Beach »). **Décision client :
@@ -395,7 +397,7 @@ note maintenue ≥ 4,8. La force hors ligne (★★★★★) doit devenir un ac
 1. **Nom d'établissement unique** : ✅ **« Téranga Beach »** (tranché).
 2. **Propriété de la fiche GBP** : ⏳ à revendiquer / vérifier (action Abdou, sans quoi rien n'est modifiable).
 3. **Catégorie principale** : ✅ **« Restaurant de fruits de mer »** (validée).
-4. **Menu/prix publiables en ligne** : ⚠️ **non publiés pour l'instant** — aucune valeur inventée ; à fournir par le client si affichage souhaité (lien menu GBP + mini-site).
+4. **Menu/prix publiables en ligne** : ✅ **fournis** (`clients/teranga-beach/menu.md`, 1 800 → 9 000 FCFA) — à publier sur le lien menu GBP + le mini-site.
 5. **Événements/temps forts** : ⏳ aucune communication avant validation.
 6. **Activation messagerie GBP** : ⏳ seulement si réponse rapide garantie.
 7. **Budget publicité** : ⏳ en attente — organique par défaut.

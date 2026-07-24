@@ -12,7 +12,7 @@
 - **Accord d'Abdou pour apparaître nommément et en photo : donné.** (Vraies photos à fournir pour la production.)
 - **Budget publicité : en attente** — la campagne tourne en organique par défaut ; média payant optionnel à décider plus tard.
 - **Fiche Google Business : à revendiquer / vérifier la propriété** (action côté Abdou).
-- **Menu / prix : non publiés en ligne pour l'instant** — aucune valeur inventée ; à fournir par le client si affichage souhaité.
+- **Menu / prix : fournis et publiables** (2026-07-24) — carte complète dans `clients/teranga-beach/menu.md` (source de vérité). Fourchette 1 800 → 9 000 FCFA. Utiliser ces valeurs telles quelles ; ne jamais en inventer d'autres.
 
 ## Identité
 - Nom commercial : Téranga Beach

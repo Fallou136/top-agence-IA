@@ -532,15 +532,16 @@ systématiquement pour protéger votre marque.
 | 2 | **Propriété de la fiche Google Business Profile** | ⏳ Action Abdou | À revendiquer / vérifier — sans elle, aucune modification de la fiche n'est possible |
 | 3 | **Catégorie principale GBP** | ✅ Validé | « Restaurant de fruits de mer » |
 | 4 | **Budget média (paid)** | ⏳ En attente | Décision reportée — la campagne tourne en organique pur par défaut, la pub reste optionnelle |
-| 5 | **Menu et prix publiables** | ⚠️ Non publiés | Aucun prix inventé ; à nous fournir si vous souhaitez les afficher en ligne |
+| 5 | **Menu et prix publiables** | ✅ Fournis | Carte complète reçue (1 800 → 9 000 FCFA) — prête à publier sur la fiche Google et le mini-site |
 | 6 | **Palette de couleurs** | ✅ Validé | Bleu mer / sable-beige / touches terracotta |
 | 7 | **Événements / temps forts** | ⏳ En attente | Aucun communiqué tant que non confirmé (dates, offres) |
 | 8 | **Accord d'Abdou pour apparaître nommément et en photo** | ✅ Validé | Vraies photos à fournir pour la production (aucun substitut IA d'une personne réelle) |
 | 9 | **Activation de la messagerie GBP** | ⏳ En attente | À activer seulement si une réponse rapide est garantie |
 
-**Ce qu'il reste à faire de votre côté** : (2) revendiquer la fiche Google, (5) nous
-transmettre menu/prix si vous voulez les publier, (4) trancher le budget pub quand vous
-voudrez, (7) nous signaler vos événements. Le reste est validé et prêt à partir. Dès que
+**Ce qu'il reste à faire de votre côté** : (2) revendiquer la fiche Google — l'action
+prioritaire, (4) trancher le budget pub quand vous voudrez, (7) nous signaler vos
+événements. Le menu et les prix nous ont été transmis. Le reste est validé et prêt à
+partir. Dès que
 la fiche Google est revendiquée, nous enclenchons la mise en ligne selon le calendrier de
 la slide 23, et à J+30 notre agent Analyste vous présentera les premiers résultats mesurés
 — sans jamais inventer une métrique qui ne serait pas disponible.
