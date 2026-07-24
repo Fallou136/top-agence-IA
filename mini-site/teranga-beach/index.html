@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Téranga Beach — Bar-restaurant pieds dans le sable · Warang, Petite Côte</title>
+<meta name="description" content="Téranga Beach, bar-restaurant pieds dans le sable à Warang Sérère (5 km de Mbour), Petite Côte, Sénégal. Poisson frais du jour, cocktails maison, coucher de soleil. Réservez au +221 77 754 90 89.">
+<style>
+  :root{
+    --mer:#0d4f5c;        /* bleu mer profond */
+    --mer-clair:#12707f;
+    --sable:#f5ead6;      /* sable / beige */
+    --sable-fonce:#e7d3b3;
+    --terra:#d1653b;      /* terracotta / coucher de soleil */
+    --terra-fonce:#b84f2a;
+    --encre:#26201a;
+    --gris:#5f574d;
+    --blanc:#fffdf9;
+    --ombre:0 8px 30px rgba(38,32,26,.12);
+    --radius:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,system-ui,sans-serif;
+    color:var(--encre);
+    background:var(--sable);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.15;font-weight:700}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  section{padding:72px 0}
+
+  /* ---------- Barre de navigation ---------- */
+  header.nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(13,79,92,.96);
+    backdrop-filter:blur(6px);
+    color:var(--sable);
+  }
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+  .brand{font-family:Georgia,serif;font-weight:700;font-size:1.25rem;letter-spacing:.5px;color:var(--sable)}
+  .brand span{color:var(--terra)}
+  nav.links{display:flex;gap:26px;flex-wrap:wrap}
+  nav.links a{text-decoration:none;font-size:.95rem;opacity:.9;transition:opacity .2s}
+  nav.links a:hover{opacity:1;color:var(--terra)}
+  @media(max-width:680px){nav.links{display:none}}
+
+  /* ---------- Héro ---------- */
+  .hero{
+    position:relative;
+    color:var(--sable);
+    text-align:center;
+    padding:110px 22px 96px;
+    background:
+      linear-gradient(180deg, rgba(13,79,92,.30), rgba(13,79,92,.72)),
+      linear-gradient(160deg,#f6b25a 0%,#e8794b 32%,#c9543a 55%,#5b3f66 78%,#0d4f5c 100%);
+  }
+  .hero .kicker{text-transform:uppercase;letter-spacing:3px;font-size:.8rem;opacity:.92;margin-bottom:16px}
+  .hero h1{font-size:clamp(2.4rem,6vw,4.2rem);text-shadow:0 2px 20px rgba(0,0,0,.25)}
+  .hero p.baseline{font-size:clamp(1.05rem,2.4vw,1.35rem);margin:18px auto 0;max-width:640px;opacity:.96}
+  .hero .cta-row{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{
+    display:inline-block;text-decoration:none;font-weight:600;
+    padding:14px 26px;border-radius:999px;font-size:1rem;
+    transition:transform .15s, box-shadow .15s;
+  }
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:var(--terra);color:#fff;box-shadow:0 6px 20px rgba(184,79,42,.45)}
+  .btn-primary:hover{background:var(--terra-fonce)}
+  .btn-ghost{background:rgba(255,253,249,.14);color:var(--sable);border:1.5px solid rgba(255,253,249,.6)}
+  .btn-ghost:hover{background:rgba(255,253,249,.24)}
+
+  .hero .badges{margin-top:30px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .badge{
+    font-size:.82rem;background:rgba(255,253,249,.16);
+    border:1px solid rgba(255,253,249,.35);
+    padding:6px 14px;border-radius:999px;
+  }
+
+  /* ---------- Bandeau infos ---------- */
+  .infobar{background:var(--mer);color:var(--sable)}
+  .infobar .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:26px 22px}
+  .infobar .cell{text-align:center}
+  .infobar .cell .lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:1.5px;opacity:.7}
+  .infobar .cell .val{font-size:1rem;margin-top:4px;font-weight:600}
+  @media(max-width:680px){.infobar .wrap{grid-template-columns:repeat(2,1fr);gap:18px}}
+
+  /* ---------- Titres de section ---------- */
+  .sec-head{text-align:center;margin-bottom:46px}
+  .sec-head .eyebrow{color:var(--terra);text-transform:uppercase;letter-spacing:2.5px;font-size:.8rem;font-weight:700}
+  .sec-head h2{font-size:clamp(1.8rem,4vw,2.6rem);margin-top:10px;color:var(--mer)}
+  .sec-head p{max-width:600px;margin:14px auto 0;color:var(--gris)}
+
+  /* ---------- Présentation ---------- */
+  .intro{background:var(--blanc)}
+  .intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+  @media(max-width:800px){.intro-grid{grid-template-columns:1fr;gap:30px}}
+  .intro-grid p{margin-bottom:16px;font-size:1.06rem}
+  .photo-holder{
+    border-radius:var(--radius);min-height:280px;
+    display:flex;align-items:flex-end;justify-content:center;
+    padding:16px;color:#fff;font-size:.82rem;text-align:center;
+    box-shadow:var(--ombre);
+    background:linear-gradient(150deg,#e8794b,#c9543a 55%,#0d4f5c);
+  }
+  .photo-holder span{background:rgba(0,0,0,.35);padding:6px 12px;border-radius:8px;backdrop-filter:blur(2px)}
+
+  /* ---------- Menu ---------- */
+  .menu{background:var(--sable)}
+  .menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+  @media(max-width:760px){.menu-grid{grid-template-columns:1fr}}
+  .menu-card{background:var(--blanc);border-radius:var(--radius);padding:28px 30px;box-shadow:var(--ombre)}
+  .menu-card h3{
+    color:var(--terra);font-size:1.35rem;margin-bottom:18px;
+    padding-bottom:12px;border-bottom:2px solid var(--sable-fonce);
+    display:flex;align-items:center;gap:10px;
+  }
+  .menu-card h3 .ic{font-size:1.2rem}
+  .item{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:9px 0}
+  .item + .item{border-top:1px dashed #e6dcc8}
+  .item .name{font-weight:500}
+  .item .name .star{color:var(--terra);font-size:.85em}
+  .item .name small{display:block;font-weight:400;color:var(--gris);font-size:.82rem}
+  .item .price{white-space:nowrap;font-weight:700;color:var(--mer);font-variant-numeric:tabular-nums}
+  .menu-note{text-align:center;margin-top:34px;color:var(--gris);font-size:.92rem}
+  .menu-note strong{color:var(--mer)}
+
+  /* ---------- Avis ---------- */
+  .avis{background:var(--mer);color:var(--sable)}
+  .avis .sec-head h2{color:var(--sable)}
+  .avis .sec-head p{color:rgba(245,234,214,.8)}
+  .stars{color:#ffca57;font-size:1.5rem;text-align:center;margin-bottom:8px;letter-spacing:3px}
+  .rating-line{text-align:center;opacity:.85;margin-bottom:40px;font-size:.95rem}
+  .avis-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media(max-width:800px){.avis-grid{grid-template-columns:1fr}}
+  .quote{
+    background:rgba(255,253,249,.07);border:1px solid rgba(255,253,249,.16);
+    border-radius:var(--radius);padding:24px;
+  }
+  .quote p{font-style:italic;font-size:1rem;margin-bottom:14px}
+  .quote .who{font-weight:600;color:var(--terra);font-size:.9rem;font-style:normal}
+
+  /* ---------- Contact ---------- */
+  .contact{background:var(--blanc)}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+  @media(max-width:800px){.contact-grid{grid-template-columns:1fr;gap:28px}}
+  .contact h3{color:var(--mer);font-size:1.3rem;margin-bottom:18px}
+  .contact ul{list-style:none}
+  .contact li{padding:11px 0;border-bottom:1px solid var(--sable-fonce);display:flex;gap:12px;align-items:flex-start}
+  .contact li .ic{font-size:1.15rem;flex-shrink:0}
+  .contact li a{color:var(--terra);text-decoration:none;font-weight:600}
+  .hours-tbl{width:100%;border-collapse:collapse}
+  .hours-tbl td{padding:9px 0;border-bottom:1px solid var(--sable-fonce)}
+  .hours-tbl td:last-child{text-align:right;font-weight:600;color:var(--mer)}
+  .hours-tbl tr.ferme td:last-child{color:var(--terra-fonce)}
+  .map-btn{margin-top:18px}
+
+  /* ---------- CTA final ---------- */
+  .final-cta{
+    text-align:center;color:var(--sable);
+    background:linear-gradient(160deg,#e8794b,#c9543a 50%,#0d4f5c);
+  }
+  .final-cta h2{color:#fff;font-size:clamp(1.8rem,4vw,2.6rem)}
+  .final-cta p{max-width:560px;margin:16px auto 30px;opacity:.95}
+
+  /* ---------- Pied de page ---------- */
+  footer{background:var(--encre);color:rgba(245,234,214,.75);padding:34px 22px;text-align:center;font-size:.88rem}
+  footer .brand{display:block;margin-bottom:8px;font-size:1.1rem}
+  footer .disclaimer{margin-top:16px;font-size:.76rem;opacity:.55;max-width:640px;margin-left:auto;margin-right:auto}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">Téranga<span> Beach</span></div>
+    <nav class="links">
+      <a href="#decouvrir">Découvrir</a>
+      <a href="#carte">La carte</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Nous trouver</a>
+      <a href="https://wa.me/221777549089">Réserver</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Héro -->
+<div class="hero" id="haut">
+  <div class="kicker">Warang Sérère · Petite Côte · Sénégal</div>
+  <h1>Le coucher de soleil<br>vaut le déplacement</h1>
+  <p class="baseline">Bar-restaurant les pieds dans le sable. Poisson frais du jour, cocktails maison
+    et l'accueil d'Abdou, à 5 km de Mbour — loin de la foule, face à l'océan.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="https://wa.me/221777549089">Réserver sur WhatsApp</a>
+    <a class="btn btn-ghost" href="#carte">Voir la carte</a>
+  </div>
+  <div class="badges">
+    <span class="badge">★★★★★ sur Google</span>
+    <span class="badge">Halal</span>
+    <span class="badge">Accès PMR</span>
+    <span class="badge">Parking gratuit</span>
+    <span class="badge">Animaux bienvenus</span>
+  </div>
+</div>
+
+<!-- Bandeau infos -->
+<div class="infobar">
+  <div class="wrap">
+    <div class="cell"><div class="lbl">Ouvert</div><div class="val">Mar → Dim · 10h – minuit</div></div>
+    <div class="cell"><div class="lbl">Où</div><div class="val">Warang, 5 km de Mbour</div></div>
+    <div class="cell"><div class="lbl">Réservation</div><div class="val">+221 77 754 90 89</div></div>
+    <div class="cell"><div class="lbl">Ambiance</div><div class="val">Pieds dans le sable</div></div>
+  </div>
+</div>
+
+<!-- Présentation -->
+<section class="intro" id="decouvrir">
+  <div class="wrap">
+    <div class="intro-grid">
+      <div>
+        <div class="sec-head" style="text-align:left;margin-bottom:24px">
+          <div class="eyebrow">Bienvenue chez nous</div>
+          <h2 style="margin-top:8px">L'esprit téranga,<br>face à l'océan</h2>
+        </div>
+        <p>Chez Téranga Beach, vous posez vos pieds dans le sable, sur une vraie plage de la Petite
+          Côte. Ici, le poisson est frais du jour, les cocktails sont faits maison, et le coucher de
+          soleil se savoure sans être pressé.</p>
+        <p>Un peu à l'écart de l'agitation de Mbour, notre spot vous offre une plage dégagée, des
+          transats, et l'accueil chaleureux d'Abdou et de son équipe — le vrai esprit téranga.
+          Familles, couples, amis, voyageurs de passage ou habitués : vous êtes les bienvenus.</p>
+        <p>Sole grillée, crevettes et calamars sautés, thiébou, yassa, options végétariennes et
+          Halal : il y en a pour tous les goûts, à toute heure de la journée.</p>
+      </div>
+      <div class="photo-holder">
+        <span>📷 Emplacement pour une vraie photo du lieu<br>(coucher de soleil, transats sur le sable)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Carte -->
+<section class="menu" id="carte">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Notre carte</div>
+      <h2>À savourer les pieds dans le sable</h2>
+      <p>Le poisson est frais du jour ; la carte peut évoluer selon la pêche et la saison. Prix en FCFA.</p>
+    </div>
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <h3><span class="ic">🥗</span>Entrées</h3>
+        <div class="item"><span class="name">Accras de crevettes</span><span class="price">3 500</span></div>
+        <div class="item"><span class="name">Salade tiède de légumes</span><span class="price">2 800</span></div>
+        <div class="item"><span class="name">Carpaccio de bar</span><span class="price">4 200</span></div>
+      </div>
+
+      <div class="menu-card">
+        <h3><span class="ic">🐟</span>Plats</h3>
+        <div class="item"><span class="name">Sole grillée, frites maison <span class="star">★ signature</span></span><span class="price">7 500</span></div>
+        <div class="item"><span class="name">Crevettes &amp; calamars sautés <span class="star">★ signature</span></span><span class="price">8 500</span></div>
+        <div class="item"><span class="name">Poulet yassa</span><span class="price">6 000</span></div>
+        <div class="item"><span class="name">Thiébou guinar végétarien</span><span class="price">5 500</span></div>
+        <div class="item"><span class="name">Brochettes de lotte</span><span class="price">9 000</span></div>
+      </div>
+
+      <div class="menu-card">
+        <h3><span class="ic">🍨</span>Desserts</h3>
+        <div class="item"><span class="name">Crème caramel au bissap</span><span class="price">2 500</span></div>
+        <div class="item"><span class="name">Sorbet mangue-citron vert</span><span class="price">2 000</span></div>
+        <div class="item"><span class="name">Fondant coco-cacahuète</span><span class="price">2 800</span></div>
+        <div class="item"><span class="name">Salade de fruits exotiques</span><span class="price">1 800</span></div>
+      </div>
+
+      <div class="menu-card">
+        <h3><span class="ic">🍹</span>Cocktails</h3>
+        <div class="item"><span class="name">Ocean Sunset <span class="star">★ signature</span></span><span class="price">3 500</span></div>
+        <div class="item"><span class="name">Pamplemousse Citron <span class="star">★ signature</span></span><span class="price">3 000</span></div>
+        <div class="item"><span class="name">Bissap Sour</span><span class="price">3 500</span></div>
+        <div class="item"><span class="name">Coco Teranga</span><span class="price">3 200</span></div>
+        <div class="item"><span class="name">Dakardaïri</span><span class="price">3 800</span></div>
+        <div class="item"><span class="name">Bouye Fraîche <small>sans alcool</small></span><span class="price">1 800</span></div>
+      </div>
+
+    </div>
+    <p class="menu-note">Une envie particulière, une allergie, un régime ? Dites-le nous à la réservation :
+      <strong>+221 77 754 90 89</strong>. Options végétariennes et Halal disponibles.</p>
+  </div>
+</section>
+
+<!-- Avis -->
+<section class="avis" id="avis">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow" style="color:#ffca57">Ils sont venus</div>
+      <h2>Ce que disent nos visiteurs</h2>
+    </div>
+    <div class="stars">★★★★★</div>
+    <div class="rating-line">5 / 5 sur Google · 19 avis sur AfricaBZ</div>
+    <div class="avis-grid">
+      <div class="quote">
+        <p>« Le coucher de soleil vaut vraiment le déplacement. Excellent accueil et très bon service. »</p>
+        <div class="who">— Sébastien</div>
+      </div>
+      <div class="quote">
+        <p>« Excellents calamars et crevettes sautés. Personnel sympathique et serviable. Excellent rapport qualité/prix. Je vais certainement revenir. »</p>
+        <div class="who">— Béatrice</div>
+      </div>
+      <div class="quote">
+        <p>« Abdou nous reçoit toujours avec le sourire. L'endroit est magique avec le coucher de soleil. »</p>
+        <div class="who">— Roseline</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Nous trouver</div>
+      <h2>Venez, on vous garde une table</h2>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <h3>Coordonnées</h3>
+        <ul>
+          <li><span class="ic">📍</span><span>Warang Sérère, route de Joal, à 5 km de Mbour — Petite Côte, Sénégal</span></li>
+          <li><span class="ic">📞</span><span>Téléphone &amp; WhatsApp : <a href="https://wa.me/221777549089">+221 77 754 90 89</a></span></li>
+          <li><span class="ic">✉️</span><span>E-mail : <a href="mailto:Terangabeach@gmail.com">Terangabeach@gmail.com</a></span></li>
+          <li><span class="ic">🅿️</span><span>Parking gratuit · Accès PMR complet · Animaux acceptés</span></li>
+        </ul>
+        <a class="btn btn-primary map-btn" href="https://www.google.com/maps/search/?api=1&query=14.3638941,-16.9414661">Itinéraire Google Maps</a>
+      </div>
+      <div>
+        <h3>Horaires</h3>
+        <table class="hours-tbl">
+          <tr class="ferme"><td>Lundi</td><td>Fermé</td></tr>
+          <tr><td>Mardi</td><td>10h00 – minuit</td></tr>
+          <tr><td>Mercredi</td><td>10h00 – minuit</td></tr>
+          <tr><td>Jeudi</td><td>10h00 – minuit</td></tr>
+          <tr><td>Vendredi</td><td>10h00 – minuit</td></tr>
+          <tr><td>Samedi</td><td>10h00 – minuit</td></tr>
+          <tr><td>Dimanche</td><td>10h00 – minuit</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA final -->
+<section class="final-cta">
+  <div class="wrap">
+    <h2>Réservez votre table au coucher du soleil</h2>
+    <p>Un message suffit. On vous accueille les pieds dans le sable, avec le sourire.</p>
+    <a class="btn btn-primary" href="https://wa.me/221777549089">Réserver sur WhatsApp</a>
+  </div>
+</section>
+
+<!-- Pied de page -->
+<footer>
+  <span class="brand">Téranga Beach</span>
+  Warang Sérère, route de Joal · à 5 km de Mbour · Petite Côte, Sénégal · +221 77 754 90 89
+  <div class="disclaimer">
+    Maquette de mini-site préparée pour présentation au client. Les emplacements photo
+    sont à remplacer par de vraies photos du lieu avant mise en ligne. Menu, prix, avis et
+    coordonnées fournis par l'établissement.
+  </div>
+</footer>
+
+</body>
+</html>
