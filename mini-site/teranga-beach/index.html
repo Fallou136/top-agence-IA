@@ -113,6 +113,7 @@
   .menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
   @media(max-width:760px){.menu-grid{grid-template-columns:1fr}}
   .menu-card{background:var(--blanc);border-radius:var(--radius);padding:28px 30px;box-shadow:var(--ombre)}
+  .menu-banner{display:block;width:100%;height:96px;border-radius:12px;margin-bottom:20px}
   .menu-card h3{
     color:var(--terra);font-size:1.35rem;margin-bottom:18px;
     padding-bottom:12px;border-bottom:2px solid var(--sable-fonce);
@@ -253,6 +254,18 @@
     <div class="menu-grid">
 
       <div class="menu-card">
+        <svg class="menu-banner" viewBox="0 0 400 96" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration entrées">
+          <defs><linearGradient id="gEnt" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f6b25a"/><stop offset="1" stop-color="#e8794b"/></linearGradient></defs>
+          <rect width="400" height="96" fill="url(#gEnt)"/>
+          <ellipse cx="200" cy="66" rx="86" ry="20" fill="#fffdf9" opacity=".95"/>
+          <ellipse cx="200" cy="63" rx="70" ry="14" fill="#f5ead6"/>
+          <path d="M168 60 q10 -16 26 -12 q16 4 12 18 q-3 10 -14 9" fill="none" stroke="#d1653b" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="166" cy="59" r="3" fill="#d1653b"/>
+          <circle cx="214" cy="56" r="6" fill="#0d4f5c" opacity=".8"/>
+          <circle cx="226" cy="60" r="5" fill="#12707f" opacity=".8"/>
+          <path d="M150 40 q6 -8 14 -3 M236 42 q7 -7 14 -1" stroke="#fffdf9" stroke-width="3" fill="none" stroke-linecap="round" opacity=".85"/>
+        </svg>
         <h3><span class="ic">🥗</span>Entrées</h3>
         <div class="item"><span class="name">Accras de crevettes</span><span class="price">3 500</span></div>
         <div class="item"><span class="name">Salade tiède de légumes</span><span class="price">2 800</span></div>
@@ -260,6 +273,18 @@
       </div>
 
       <div class="menu-card">
+        <svg class="menu-banner" viewBox="0 0 400 96" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration plats">
+          <defs><linearGradient id="gPlat" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#e8794b"/><stop offset="1" stop-color="#c9543a"/></linearGradient></defs>
+          <rect width="400" height="96" fill="url(#gPlat)"/>
+          <ellipse cx="200" cy="60" rx="96" ry="24" fill="#fffdf9" opacity=".95"/>
+          <ellipse cx="200" cy="57" rx="78" ry="17" fill="#f5ead6"/>
+          <path d="M150 57 q34 -26 74 -2 q-34 26 -74 2 z" fill="#0d4f5c"/>
+          <path d="M224 55 q22 -10 34 0 q-22 10 -34 2 z" fill="#12707f"/>
+          <circle cx="166" cy="52" r="3.4" fill="#fffdf9"/>
+          <path d="M150 57 q34 -26 74 -2" fill="none" stroke="#fffdf9" stroke-width="2" opacity=".5"/>
+          <path d="M120 44 q6 -6 13 -2 M270 46 q7 -6 14 -1" stroke="#fffdf9" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+        </svg>
         <h3><span class="ic">🐟</span>Plats</h3>
         <div class="item"><span class="name">Sole grillée, frites maison <span class="star">★ signature</span></span><span class="price">7 500</span></div>
         <div class="item"><span class="name">Crevettes &amp; calamars sautés <span class="star">★ signature</span></span><span class="price">8 500</span></div>
@@ -269,6 +294,20 @@
       </div>
 
       <div class="menu-card">
+        <svg class="menu-banner" viewBox="0 0 400 96" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration desserts">
+          <defs><linearGradient id="gDes" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f6b25a"/><stop offset="1" stop-color="#d1653b"/></linearGradient></defs>
+          <rect width="400" height="96" fill="url(#gDes)"/>
+          <path d="M188 44 l24 0 l-12 34 z" fill="#f5ead6"/>
+          <path d="M188 44 l24 0 l-3 8 l-18 0 z" fill="#e7d3b3"/>
+          <circle cx="192" cy="40" r="13" fill="#fffdf9"/>
+          <circle cx="208" cy="40" r="13" fill="#fbe0c0"/>
+          <circle cx="200" cy="32" r="13" fill="#f7c9a0"/>
+          <circle cx="200" cy="26" r="3.5" fill="#c9543a"/>
+          <circle cx="150" cy="60" r="7" fill="#0d4f5c" opacity=".8"/>
+          <circle cx="252" cy="58" r="8" fill="#12707f" opacity=".8"/>
+          <path d="M150 51 q3 -6 8 -4 M252 49 q3 -6 8 -3" stroke="#2d6b3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
         <h3><span class="ic">🍨</span>Desserts</h3>
         <div class="item"><span class="name">Crème caramel au bissap</span><span class="price">2 500</span></div>
         <div class="item"><span class="name">Sorbet mangue-citron vert</span><span class="price">2 000</span></div>
@@ -277,6 +316,19 @@
       </div>
 
       <div class="menu-card">
+        <svg class="menu-banner" viewBox="0 0 400 96" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration cocktails">
+          <defs><linearGradient id="gCok" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f6b25a"/><stop offset="0.55" stop-color="#c9543a"/><stop offset="1" stop-color="#0d4f5c"/></linearGradient></defs>
+          <rect width="400" height="96" fill="url(#gCok)"/>
+          <circle cx="200" cy="40" r="20" fill="#ffd98a" opacity=".9"/>
+          <line x1="132" y1="72" x2="268" y2="72" stroke="#fffdf9" stroke-width="2" opacity=".45"/>
+          <path d="M180 40 l40 0 l-20 24 z" fill="#fffdf9" opacity=".95"/>
+          <path d="M180 40 l40 0 l-6 7 l-28 0 z" fill="#e8794b" opacity=".9"/>
+          <line x1="200" y1="64" x2="200" y2="80" stroke="#fffdf9" stroke-width="3"/>
+          <line x1="188" y1="82" x2="212" y2="82" stroke="#fffdf9" stroke-width="3" stroke-linecap="round"/>
+          <line x1="214" y1="30" x2="226" y2="20" stroke="#fffdf9" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="226" cy="20" r="5" fill="#2d6b3a"/>
+        </svg>
         <h3><span class="ic">🍹</span>Cocktails</h3>
         <div class="item"><span class="name">Ocean Sunset <span class="star">★ signature</span></span><span class="price">3 500</span></div>
         <div class="item"><span class="name">Pamplemousse Citron <span class="star">★ signature</span></span><span class="price">3 000</span></div>

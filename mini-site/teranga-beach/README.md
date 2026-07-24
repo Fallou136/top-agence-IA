@@ -16,6 +16,10 @@ Maquette de site vitrine mono-page (`index.html`), prête à présenter au clien
 - **Aucune image générée ni stock** : les emplacements photo (dégradés + libellé
   « 📷 emplacement pour une vraie photo ») sont à remplacer par de **vraies photos**
   de Téranga Beach avant mise en ligne.
+- **Illustrations de la carte** : chaque section (Entrées, Plats, Desserts, Cocktails)
+  porte une illustration vectorielle (SVG inline, aux couleurs de la marque), purement
+  décorative — ni photo de stock, ni image générée. Le stock photo externe a été écarté
+  (interdit par le garde-fou de marque, et hôtes bloqués par la politique réseau).
 - Aucune fausse récompense ; NAP, menu, prix et avis réels uniquement.
 
 ## Prochaines étapes avant mise en ligne
