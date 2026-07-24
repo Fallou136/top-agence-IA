@@ -4,7 +4,7 @@ campagne: lancement-digital-2026
 agent: seo-local
 date: 2026-07-24
 version: 1
-statut: a-valider
+statut: approuve
 ---
 
 # SEO Local — Téranga Beach · « Lancement Digital 2026 »
