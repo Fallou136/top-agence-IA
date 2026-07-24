@@ -3,7 +3,7 @@ client: teranga-beach
 sujet: lancement-digital-2026
 agent: presenter
 date: 2026-07-24
-version: 1
+version: 2
 statut: approuve
 ---
 
@@ -475,8 +475,8 @@ logique et sont disponibles en intégralité dans le livrable Créateur.
 réelles, citées nommément dans vos avis. Générer un visage par IA et le présenter
 comme « Abdou » serait une usurpation d'identité — strictement exclu de notre travail.
 De même, **la palette de couleurs (bleu mer / sable / terracotta) utilisée dans les
-visuels est une recommandation par défaut, non encore validée par vous** (voir slide
-24).
+visuels a été validée par vous le 2026-07-24** et sert désormais de base à la charte
+graphique (voir slide 24).
 
 ---
 
@@ -522,27 +522,28 @@ systématiquement pour protéger votre marque.
 
 ---
 
-## Slide 24 — Décisions à valider par vous avant publication
+## Slide 24 — Décisions client : statut au 2026-07-24
 
-### Ces points sont bloquants : sans votre validation, rien ne part en ligne
+### La plupart des points sont validés ✅ — il reste 4 actions concrètes de votre côté
 
-| # | Décision | Notre recommandation | Pourquoi c'est bloquant |
+| # | Décision | Statut | Détail |
 |---|---|---|---|
-| 1 | **Nom unique de l'établissement** | « Téranga Beach » (plutôt que « Téranga Belge Beach ») | Sans nom unique, la cohérence NAP (fiche Google, annuaires, site) est impossible |
-| 2 | **Propriété de la fiche Google Business Profile** | Vérifier/obtenir la revendication | Sans elle, aucune modification de la fiche n'est techniquement possible |
-| 3 | **Catégorie principale GBP** | « Restaurant de fruits de mer » | Détermine fortement votre classement dans le pack local Google |
-| 4 | **Budget média (paid)** | Aucun engagé par défaut — la campagne tourne en organique pur | Sans validation, aucun boost Facebook/Instagram géolocalisé n'est activé |
-| 5 | **Menu et prix publiables** | À définir avec vous ; rien n'est publié tant que non validé | Interdiction bloquante de votre fiche de marque : aucun prix ni menu figé sans accord |
-| 6 | **Palette de couleurs** | Bleu mer / sable-beige / touches terracotta (recommandation par défaut) | Non communiquée par vous à ce jour ; à valider avant toute impression ou déploiement final |
-| 7 | **Événements / temps forts** | Aucun n'est communiqué tant que non confirmé (dates, offres) | Interdiction bloquante : ne jamais annoncer un événement non confirmé |
-| 8 | **Accord d'Abdou et de l'équipe pour apparaître nommément et en photo** | À confirmer avant tout shooting « Accueil d'Abdou » | Aucun substitut IA n'est acceptable pour représenter des personnes réelles |
-| 9 | **Activation de la messagerie GBP** | Uniquement si vous garantissez une réponse rapide | Sinon, mieux vaut la laisser désactivée qu'un message sans réponse |
+| 1 | **Nom unique de l'établissement** | ✅ Validé | « Téranga Beach » retenu et appliqué partout |
+| 2 | **Propriété de la fiche Google Business Profile** | ⏳ Action Abdou | À revendiquer / vérifier — sans elle, aucune modification de la fiche n'est possible |
+| 3 | **Catégorie principale GBP** | ✅ Validé | « Restaurant de fruits de mer » |
+| 4 | **Budget média (paid)** | ⏳ En attente | Décision reportée — la campagne tourne en organique pur par défaut, la pub reste optionnelle |
+| 5 | **Menu et prix publiables** | ⚠️ Non publiés | Aucun prix inventé ; à nous fournir si vous souhaitez les afficher en ligne |
+| 6 | **Palette de couleurs** | ✅ Validé | Bleu mer / sable-beige / touches terracotta |
+| 7 | **Événements / temps forts** | ⏳ En attente | Aucun communiqué tant que non confirmé (dates, offres) |
+| 8 | **Accord d'Abdou pour apparaître nommément et en photo** | ✅ Validé | Vraies photos à fournir pour la production (aucun substitut IA d'une personne réelle) |
+| 9 | **Activation de la messagerie GBP** | ⏳ En attente | À activer seulement si une réponse rapide est garantie |
 
-**Prochaine étape** : merci de nous indiquer votre décision sur chacun de ces 9 points
-(un simple « oui / non / à ajuster » suffit pour démarrer). Dès réception, nous
-enclenchons la mise en ligne selon le calendrier de la slide 23, et à J+30 notre agent
-Analyste vous présentera les premiers résultats mesurés — sans jamais inventer une
-métrique qui ne serait pas disponible.
+**Ce qu'il reste à faire de votre côté** : (2) revendiquer la fiche Google, (5) nous
+transmettre menu/prix si vous voulez les publier, (4) trancher le budget pub quand vous
+voudrez, (7) nous signaler vos événements. Le reste est validé et prêt à partir. Dès que
+la fiche Google est revendiquée, nous enclenchons la mise en ligne selon le calendrier de
+la slide 23, et à J+30 notre agent Analyste vous présentera les premiers résultats mesurés
+— sans jamais inventer une métrique qui ne serait pas disponible.
 
 ---
 

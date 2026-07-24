@@ -3,7 +3,7 @@ client: teranga-beach
 campagne: lancement-digital-2026
 agent: seo-local
 date: 2026-07-24
-version: 1
+version: 2
 statut: approuve
 ---
 
@@ -118,14 +118,12 @@ Ordre de priorité (les premières photos conditionnent le clic depuis Maps) :
   car les posts GBP nourrissent la fiche et le pack local.
 - **Champ « à partir de » / lien menu** : à alimenter **après validation du menu/prix** par le client.
 
-### 1.7 Alerte cohérence (bloquante) — nom d'établissement
-Deux dénominations coexistent : **« Téranga Beach »** et **« Téranga Belge Beach »**. Il faut
-**trancher un nom unique** et l'appliquer partout (fiche GBP, Facebook, annuaires, mini-site).
-Recommandation : conserver **« Téranga Beach »** (plus simple, plus mémorisable, cohérent avec
-le domaine `teranga-beach.business.site` et l'email `Terangabeach@gmail.com`).
+### 1.7 Cohérence — nom d'établissement (✅ tranché le 2026-07-24)
+Deux dénominations coexistaient (« Téranga Beach » / « Téranga Belge Beach »). **Décision client :
+le nom unique retenu est « Téranga Beach »**, à appliquer partout (fiche GBP, Facebook, annuaires,
+mini-site) — cohérent avec le domaine `teranga-beach.business.site` et l'email `Terangabeach@gmail.com`.
 **Ne jamais ajouter de mot-clé au nom d'établissement** (ex. « Téranga Beach Restaurant Poisson
 Mbour ») : c'est interdit par les règles Google Business Profile et expose à une suspension.
-→ **Décision à valider par le client.**
 
 ---
 
@@ -393,13 +391,14 @@ note maintenue ≥ 4,8. La force hors ligne (★★★★★) doit devenir un ac
 
 ---
 
-## Synthèse des décisions à faire valider par le client (bloquantes en aval)
-1. **Nom d'établissement unique** : « Téranga Beach » (recommandé) vs « Téranga Belge Beach ». — bloquant NAP.
-2. **Revendication/vérification de la propriété de la fiche GBP** (sans quoi rien n'est modifiable).
-3. **Catégorie principale** : « Restaurant de fruits de mer » (recommandée).
-4. **Menu/prix** publiables en ligne (interdiction de figer sans accord) — pour lien menu GBP + mini-site.
-5. **Événements/temps forts** — aucune communication avant validation.
-6. **Activation messagerie GBP** — seulement si réponse rapide garantie.
+## Synthèse des décisions client (statut au 2026-07-24)
+1. **Nom d'établissement unique** : ✅ **« Téranga Beach »** (tranché).
+2. **Propriété de la fiche GBP** : ⏳ à revendiquer / vérifier (action Abdou, sans quoi rien n'est modifiable).
+3. **Catégorie principale** : ✅ **« Restaurant de fruits de mer »** (validée).
+4. **Menu/prix publiables en ligne** : ⚠️ **non publiés pour l'instant** — aucune valeur inventée ; à fournir par le client si affichage souhaité (lien menu GBP + mini-site).
+5. **Événements/temps forts** : ⏳ aucune communication avant validation.
+6. **Activation messagerie GBP** : ⏳ seulement si réponse rapide garantie.
+7. **Budget publicité** : ⏳ en attente — organique par défaut.
 
 ## Prochaine étape dans la chaîne
 Ce livrable alimente le **Créateur** (3-5 contenus sur les angles ci-dessus + ancrage local),

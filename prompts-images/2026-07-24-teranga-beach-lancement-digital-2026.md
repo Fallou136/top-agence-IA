@@ -3,7 +3,7 @@ client: teranga-beach
 campagne: lancement-digital-2026
 agent: designer
 date: 2026-07-24
-version: 1
+version: 2
 statut: approuve
 ---
 
@@ -23,12 +23,10 @@ couverture FB, bandeau site, miniature YouTube).
 
 ## 0. Garde-fous obligatoires (lus dans `clients/teranga-beach/brand.md`)
 
-1. **Palette NON validée par le client.** La palette bleu mer / sable-beige /
-   touches terracotta-coucher de soleil utilisée dans les prompts ci-dessous est une
-   **recommandation par défaut**, cohérente avec le lieu, mais **elle doit être
-   confirmée par le client avant toute impression ou déploiement final** (charte
-   graphique, réseaux sociaux, mini-site). Tant que non validée, considérer chaque
-   visuel « à ajuster colorimétriquement » si le client fournit d'autres préférences.
+1. **Palette validée par le client (2026-07-24).** La palette bleu mer / sable-beige /
+   touches terracotta-coucher de soleil utilisée dans les prompts ci-dessous est
+   **la palette de marque validée** — à appliquer telle quelle sur les visuels, la charte
+   graphique, les réseaux sociaux et le mini-site.
 2. **Stock générique interdit.** Aucun visuel ne doit ressembler à une banque
    d'images « plage tropicale générique ». Voir section 0.2 ci-dessous sur le risque
    spécifique de généricité IA pour ce lieu.
@@ -92,7 +90,7 @@ Prompt de base (à décliner par ratio) :
 > orangé et rose, réflexion du soleil sur l'eau calme, ambiance chaleureuse et
 > paisible, aucune foule, aucune personne visible ou une silhouette discrète assise
 > de dos, palette bleu marine profond / sable beige / touches terracotta-orangé
-> (recommandation à valider), lumière naturelle basse, style photo de voyage
+> (palette de marque validée), lumière naturelle basse, style photo de voyage
 > authentique, pas de logo, pas de texte incrusté, format --ar {ratio}
 
 - **1:1** → `--ar 1:1` — cadrage centré sur 2-3 transats et l'horizon, bon pour feed.
@@ -293,8 +291,8 @@ risque de déformation sinon.
 
 ## 6. Rappels finaux avant production
 
-- **Palette bleu mer / sable / terracotta = recommandation, non validée.** Ne pas
-  figer une charte graphique dessus avant retour du client.
+- **Palette bleu mer / sable / terracotta = validée (2026-07-24).** Charte graphique
+  à construire sur cette base.
 - **Menu, prix et événements** : aucun visuel ne doit afficher de prix ou de menu
   détaillé (cohérent avec le brief et les contenus).
 - **Pas de foule** sur aucun visuel, y compris ceux générés par IA — cohérence avec
